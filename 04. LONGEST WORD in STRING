@@ -11,7 +11,6 @@ function findLongestWord(str) {
 	
   var lWord = 0;
 
-  // Step 3. Create the FOR loop
   for(var i = 0; i < word.length; i++){
     
     if(word[i].length > lWord){ 
@@ -20,7 +19,7 @@ function findLongestWord(str) {
      }
   }
 
-  return lWord; // 6
+  return lWord; 
 }
 
 findLongestWord("The quick brown fox jumped over the lazy dog");
