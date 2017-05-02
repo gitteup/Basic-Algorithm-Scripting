@@ -12,3 +12,8 @@ function reverseString(str) {
 }
 
 reverseString("hello");
+
+//#2
+
+//var yum = 'jello';
+//yum.replace(/p/g, 'b')
