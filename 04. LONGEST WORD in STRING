@@ -3,7 +3,7 @@
 //Return the length of the longest word in the provided sentence.
 //Your response should be a number.
 
-//#1
+//#1 (SPLIT)
 
 function findLongestWord(str) {
 
@@ -24,5 +24,4 @@ function findLongestWord(str) {
 
 findLongestWord("The quick brown fox jumped over the lazy dog");
 
-//#2
-
+//#2 (SORT)
