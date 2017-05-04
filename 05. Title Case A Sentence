@@ -11,6 +11,7 @@
 var sent = "these are just some words on paper"
 sent.split(' ').map (([h, ...t]) => h.toUpperCase() + t.join('').toLowerCase() )
 
+
 //NOTES #2:
 
 //The toLowerCase() method returns the calling string value converted to lowercase
@@ -20,6 +21,7 @@ sent.split(' ').map (([h, ...t]) => h.toUpperCase() + t.join('').toLowerCase() )
 //The join() method joins all elements of an array into a string.
 
 //#2 (FOR Loop)
+
 
 function titleCase(str) {
 
@@ -35,13 +37,24 @@ titleCase("Im a little tea pot");
 
 //#3 (MAP)
 
+
 function titleCase(str) {
+
   return str.toLowerCase().split(' ').map(function(word) {
+  
     return (word.charAt(0).toUpperCase() + word.slice(1));
   }).join(' ');
 }
 titleCase("Im a little tea pot");
 
-//#4 (REDUCE)
 
+//#4 (REPLACE & MAP)
 
+function titleCase(str) {
+
+  return str.toLowerCase().split(' ').map(function(word) {
+  
+    return word.replace(word[0], word[0].toUpperCase());
+  }).join(' ');
+}
+titleCase("Im a little tea pot");
