@@ -1,0 +1,40 @@
+//NOTES #1:
+
+//Return the provided string with the first letter of each word capitalized. 
+//Make sure the rest of the word is in lower case.
+
+//For the purpose of this exercise, 
+//you should also capitalize connecting words like "the" and "of".
+
+//#1 (MAP)
+
+var sent = "these are just some words on paper"
+sent.split(' ').map (([h, ...t]) => h.toUpperCase() + t.join('').toLowerCase() )
+
+//NOTES #2:
+
+//The toLowerCase() method returns the calling string value converted to lowercase
+//The split() method splits a String object into an array of strings by separating the string into substrings.
+//The charAt() method returns the specified character from a string.
+//The slice() method extracts a section of a string and returns a new string.
+//The join() method joins all elements of an array into a string.
+
+//#2 (FOR Loop)
+
+function titleCase(str) {
+
+  str = str.toLowerCase().split(' ');
+  
+  for (var i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+  }
+  return str.join(' ');
+}
+
+titleCase("Im a little tea pot");
+
+//#3 (MAP)
+
+//#4 (REDUCE)
+
+
