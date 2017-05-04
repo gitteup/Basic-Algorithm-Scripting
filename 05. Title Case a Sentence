@@ -6,11 +6,15 @@
 //For the purpose of this exercise, 
 //you should also capitalize connecting words like "the" and "of".
 
-//#1
+//#1 (MAP)
 
 var sent = "these are just some words on paper"
 sent.split(' ').map (([h, ...t]) => h.toUpperCase() + t.join('').toLowerCase() )
 
-//#2
+//#2 (FOR Loop)
+
+//#3 (MAP)
+
+//#4 (REDUCE)
 
 
