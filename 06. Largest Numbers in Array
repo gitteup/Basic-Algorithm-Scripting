@@ -61,9 +61,13 @@ largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 85
 
 //NOTES #3
 
-//console.log(Math.max(4,5,1,3)); // logs 5
+// console.log(Math.max(4,5,1,3)); // logs 5
 
-//#3 (Math.max)
+// The APPLY() method calls a function with a given this value and arguments provided as an array (or an array-like object).
+// You can pass an array of arguments to a function by using the apply() method and the function will execute the items in the array.
+// Such functions are known as variadic functions, and they can accept any number of arguments instead of a fixed one.
+
+//#3 (MAP & APPLY)
 
 function largestOfFour(mainArray) {
   return mainArray.map(function(subArray) {
