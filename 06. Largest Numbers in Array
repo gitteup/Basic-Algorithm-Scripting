@@ -1,1 +1,11 @@
 //NOTES:
+
+//Return an array consisting of the largest number from each provided sub-array
+
+//#1 (FOR LOOP)
+
+
+//#2 (REDUCE)
+
+
+//#3 (Math.max)
