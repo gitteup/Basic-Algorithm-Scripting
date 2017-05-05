@@ -26,4 +26,16 @@ confirmEnding('Bastian', 'n');
 // return (string.substr(-target.length) === target) ? true : false;
 
 
+
+//NOTES: #2 
+
+// The endsWith() method determines whether a string ends with the characters of another string,
+// returning true or false as appropriate. This method is case-sensitive.
+
+
 // #2 (endsWith())
+
+function confirmEnding(string, target) {
+  return string.endsWith(target); 
+}
+confirmEnding('Bastian', 'n');
