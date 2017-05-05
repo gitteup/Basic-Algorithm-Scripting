@@ -23,7 +23,7 @@ confirmEnding('Bastian', 'n');
 
 // ternary operator
 
-// (string.substr(-target.length) === target) ? true : false;
+// return (string.substr(-target.length) === target) ? true : false;
 
 
 // #2 (endsWith())
