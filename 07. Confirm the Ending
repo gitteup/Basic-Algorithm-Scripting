@@ -9,4 +9,9 @@
 // String.prototype.substr()
 // String.prototype.substring()
 
-// #1
+// #1 (substr())
+
+
+
+
+// #2 (endsWith())
