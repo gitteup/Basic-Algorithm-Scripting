@@ -1,2 +1,16 @@
 //NOTES:
 
+// Repeat a given string (first argument) num times (second argument). 
+// Return an empty string if num is not a positive number.
+
+// #1 (while loop)
+
+
+
+
+// #2 (recursion)
+
+
+
+
+// #3 (repeat())
