@@ -13,7 +13,7 @@
 
 
 function palindrome(str) {
-  // Good luck!
+
    str = str.toLowerCase().replace(/\W|_/g, '');
    return str === str.split("").reverse().join("");
 } 
