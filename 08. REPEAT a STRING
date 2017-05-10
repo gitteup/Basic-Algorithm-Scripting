@@ -39,6 +39,18 @@ function repeatStringNumTimes(string, times) {
 }
 repeatStringNumTimes("abc", 3);
 
+// NOTES: #4
+
+// times > 0 ? string.repeat(times) : "";
+
+// This can be read as:
+
+// if (times > 0) {    
+//    return string.repeat(times);
+// } else {
+//    return "";
+// }
+
 // #4 (ternary operator)
 
 function repeatStringNumTimes(string, times) {
