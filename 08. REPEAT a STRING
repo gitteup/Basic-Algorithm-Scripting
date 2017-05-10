@@ -30,3 +30,11 @@ repeatStringNumTimes("abc", 3);
 
 
 // #3 (repeat())
+
+function repeatStringNumTimes(string, times) {
+  if (times > 0)
+    return string.repeat(times);
+  else
+    return "";
+}
+repeatStringNumTimes("abc", 3);
