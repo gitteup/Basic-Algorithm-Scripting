@@ -8,4 +8,4 @@
 // However, if the given maximum string length num is less than or equal to 3,
 // then the addition of the three dots does not add to the string length in determining the truncated string.
 
-//# 1
+// #1
