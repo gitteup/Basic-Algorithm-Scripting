@@ -1,6 +1,34 @@
 // NOTES: #1
 
 // Return the remaining elements of an array after chopping off n elements from the head.
-
 // The head means the beginning of the array, or the zeroth index.
+
+// #1
+
+function slasher(arr, howMany) {
+  // it doesn't always pay to be first
+  arr.splice(0, howMany);
+  // return the remaining or the tail
+  return arr;
+}
+
+slasher([1, 2, 3], 2);
+
+ // #2
+ 
+ function slasher(arr, howMany) {
+
+  // Return string after the amount chopped off.
+  return arr.slice(howMany);
+
+}
+
+slasher([1, 2, 3], 2);
+
+// #3
+
+const slasher = (arr, howMany) => arr.splice(howMany);
+
+slasher([1, 2, 3], 2);
+
 
