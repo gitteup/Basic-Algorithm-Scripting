@@ -35,3 +35,4 @@ function truncateString(str, num) {
 // #3
 
 const truncateString = (str, num) => num<str.length ? str.slice(0, num<=3 ? num : num -3)+"..." : str;
+  truncateString("A-tisket a-tasket A green and yellow basket", 11);
